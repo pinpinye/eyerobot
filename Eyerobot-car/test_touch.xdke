@@ -1,0 +1,89 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      ".gitignore": {
+        "previousModTime": 1476579887000,
+        "modified": 1476579887000,
+        "seen": true,
+        "name": ".gitignore"
+      },
+      "README.md": {
+        "previousModTime": 1476579887000,
+        "modified": 1476579887000,
+        "seen": true,
+        "name": "README.md"
+      },
+      "icon.png": {
+        "previousModTime": 1476579887000,
+        "modified": 1476579887000,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1476598297000,
+        "modified": 1476598297000,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1476585451000,
+        "modified": 1476585451000,
+        "seen": true,
+        "name": "package.json"
+      },
+      "test_touch.xdk": {
+        "previousModTime": 1476579904000,
+        "modified": 1476579904000,
+        "seen": true,
+        "name": "test_touch.xdk"
+      },
+      "test_touch.xdke": {
+        "previousModTime": 1476598210000,
+        "modified": 1476598210000,
+        "seen": true,
+        "name": "test_touch.xdke"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1476579902000,
+        "modified": 1476579902000,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      },
+      "index.html": {
+        "previousModTime": 1476589574000,
+        "modified": 1476589574000,
+        "seen": true,
+        "name": "index.html"
+      }
+    },
+    "boardFileStatus": {
+      "README.md": {
+        "previousModTime": 1476598655100
+      },
+      "icon.png": {
+        "previousModTime": 1476598655100
+      },
+      "main.js": {
+        "previousModTime": 1476598655100
+      },
+      "package.json": {
+        "previousModTime": 1476598655100
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1476598655100
+      },
+      "index.html": {
+        "previousModTime": 1476598655100
+      }
+    }
+  }
+}

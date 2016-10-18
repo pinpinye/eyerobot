@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Robot</title>
+    <style>button {width: 100px; height: 100px;}</style>
+  </head>
+  <body>
+    
+<!--
+<div class="container">
+	<div class="container_wheel">
+
+	</div>
+	<div class="container_direction">
+		<div class="container_direction_top"></div>
+		<div class="container_direction_right"></div>
+		<div class="container_direction_bottom"></div>
+		<div class="container_direction_left"></div>
+	</div>
+</div>
+-->
+    
+    <button id="move">MOVE</button>
+    <button id="back">BACK</button>
+    <button id="stop">STOP</button>
+    <button id="left">LEFT</button>
+    <button id="right">RIGHT</button>
+    
+    <br>
+    
+    <button id="yunup">云台 UP</button>
+    <button id="yundown">云台 DOWN</button>
+    <button id="yunleft">云台 LEFT</button>
+    <button id="yunright">云台 RIGHT</button>
+    
+    <script>
+      ["move", "back", "stop", "left", "right", "yunup", "yundown", "yunleft", "yunright"].forEach(function(servo) {
+          var path = servo;
+
+          function send() {
+            var req = new XMLHttpRequest();
+            req.open("post", "/" + path, true);
+            req.send();
+          }
+
+          document.getElementById(path).addEventListener("click", send);
+      });
+    </script>
+  </body>
+</html>
